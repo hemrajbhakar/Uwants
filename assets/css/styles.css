@@ -1,0 +1,527 @@
+/* Common Styles */
+/*body {
+  background-color: #f5f5f5;
+
+}*/
+
+hr {
+  box-shadow: 0 0 .5px grey;
+}
+
+/* ./Common Styles */
+/* Header Navbar */
+
+.navbar-survival101 {
+  background: linear-gradient(120deg, #2D3142 55%, #E8B363 55%);
+}
+
+#header-navbar {
+  box-shadow: 0 3px 5px grey;
+}
+
+.navbar-survival101 .navbar-brand {
+  margin-right: 5.15rem;
+  padding: 3px 0 0 0;
+  line-height: 36px;
+}
+
+/*.navbar-survival101 {
+  vertical-align: baseline;
+}*/
+.logo-U {
+  color: #E8B363;
+}
+
+.header-navbar-items {
+  margin-right: 5%;
+}
+
+::placeholder {
+  color: #E8B363;
+}
+
+.search-box {
+  position: relative;
+  height: 34px;
+}
+
+.search-box input {
+  border: 0;
+  background-color: #2D3142;
+  border-radius: 18px;
+  padding-right: 28px;
+  font-size: 15px;
+  text-indent: 10px;
+}
+
+.search-box .input-group-btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 999;
+}
+
+.search-box .input-group-btn button {
+  background-color: transparent;
+  border: 0;
+  padding: 4px 10px;
+  color: #E8B363;
+  font-size: 18px;
+}
+
+.search-box .input-group-btn button:hover,
+.search-box .input-group-btn button:active,
+.search-box .input-group-btn button:focus {
+  color: #f7902f;
+}
+
+/* ./Header Navbar */
+/* Header Menu */
+#menu-navbar {
+  margin-top: 20px;
+  background-color: #fafafa;
+  box-shadow: 0 0 1px grey;
+}
+
+.menu-bar {
+  text-align: center;
+  margin: auto;
+  width: 992px;
+  padding: 0;
+  box-shadow: 0 0 1px grey;
+  background-color: #ededed;
+}
+
+.menu-bar .container-fluid {
+  padding: 0;
+}
+
+.menu-bar .navbar-nav {
+  margin: auto;
+}
+
+.menu-bar .nav-item {
+  margin: 0 25px 0;
+}
+
+.menu-bar .nav-link {
+  padding: 6px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #2D3142
+}
+
+.menu-bar .nav-link:hover,
+.menu-bar .nav-link:active,
+.menu-bar .nav-link:focus {
+  color: #E8B363;
+}
+
+.dropdown-menu {
+  min-width: 100px;
+}
+
+.dropdown-item-books, .dropdown-item-udemy-courses, .dropdown-item-games {
+  display: none;
+}
+
+/* ./Header Menu */
+/* Header Menu Mobile */
+#menu-navbar-mobile {
+  display: none;
+}
+
+/* ./Header Menu Mobile */
+
+/* Main body */
+
+.main-body {
+	display: block;
+	padding-top: 60px;
+}
+
+.main-body ul{
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+.main-body .container {
+  width: 992px;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 15px;
+  box-shadow: 0 0 3px rgba(0,0,0,0.3);
+}
+
+.main-body .cnt-block:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    border: 0;
+}
+
+.main-body .cnt-block{
+   float:left;
+   width:100%;
+   background:#fff;
+   padding:20px 10px;
+   text-align:center;
+   border:2px solid #d5d5d5;
+   margin: 0 0 28px;
+}
+
+.main-body .cnt-block img{
+   width:180px;
+   height:160px;
+   border-radius:10%;
+}
+.main-body .cnt-block h3{
+   color: black;
+   font-size:16px;
+   font-weight:600;
+}
+.main-body .cnt-block h6 {
+  color: #2d3142;
+  font-size:14px;
+  font-weight:500;
+}
+/* ./Main body */
+
+/* Pages Section */
+.pages-section {
+  margin:15px auto 0;
+}
+
+/* ./Pages Section */
+
+/* footer */
+.footer {
+  padding: 60px 0 1px;
+}
+
+.footer {
+  background: #2D3142;
+  box-shadow: 0 -2px 1px #2D3142;
+  margin-top: 20px;
+}
+.footer .container {
+  max-width: 992px;
+}
+.footer-h5 {
+  padding-left: 10px;
+  border-left: 3px solid #eeeeee;
+  padding-bottom: 6px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.footer a {
+  color: #c0c0c0;
+  text-decoration: inherit;
+  -webkit-text-decoration-skip: objects;
+}
+
+.footer ul.social li {
+  padding: 3px 0;
+}
+
+.footer ul.social li a i {
+  margin-right: 5px;
+  font-size: 25px;
+  -webkit-transition: .5s all ease;
+  -moz-transition: .5s all ease;
+  transition: .5s all ease;
+}
+
+.footer ul.social li:hover a i {
+  font-size: 30px;
+  margin-top: -10px;
+}
+
+.footer ul.social li a,
+.footer ul.quick-links li a {
+  color: #c0c0c0;
+}
+
+.footer ul.social li a:hover {
+  color: #eeeeee;
+}
+
+.footer ul.quick-links li {
+  padding: 3px 0;
+  -webkit-transition: .5s all ease;
+  -moz-transition: .5s all ease;
+  transition: .5s all ease;
+}
+
+.footer ul.quick-links li:hover {
+  padding: 3px 0;
+  margin-left: 5px;
+  font-weight: 700;
+}
+
+.footer ul.quick-links li a i {
+  margin-right: 5px;
+}
+
+.footer ul.quick-links li:hover a i {
+  font-weight: 700;
+}
+
+.footer-menu-bar {
+  display: inline;
+  text-align: center;
+}
+
+.footer-menu-items li {
+  display: inline-block;
+  margin: 2% 3% 0;
+}
+
+.footer-menu-items li a {
+  font-size: 17px;
+}
+
+.footer-menu-items li a:hover {
+  font-size: 15px;
+}
+
+.cp-sec {
+  text-align: center;
+  color: #c0c0c0;
+  font-size: 14px;
+}
+
+.cp-sec a:hover {
+  font-size: 17px;
+  text-decoration: underline;
+}
+
+/* ./footer */
+
+@media (max-width: 992px) {
+
+  /* Header Navbar */
+  .navbar-survival101 .navbar-brand {
+    margin-right: 2.15rem;
+  }
+
+  .header-navbar-items {
+    margin-right: 0;
+  }
+
+  .search-box input {
+    padding-right: 8px;
+  }
+
+  /* ./Header Navbar */
+  /* Header Menu */
+  #menu-navbar {
+    background-color: #ededed;
+    box-shadow: 0 0 2px grey;
+  }
+
+  .menu-bar {
+    width: 767px;
+    box-shadow: none;
+  }
+
+  .menu-bar .nav-item {
+    margin: 0 15px 0;
+  }
+
+  .menu-bar .item-books {
+    display: none;
+  }
+
+  .dropdown-item-books {
+    display: inline-block;
+  }
+
+  /* ./Header Menu */
+}
+
+@media (max-width: 767px) {
+
+  /* Header Navbar */
+  .website-logo {
+    font-size: 25px;
+    padding: 1px 0 0 0;
+  }
+
+  .navbar-survival101 {
+    background: linear-gradient(120deg, #2D3142 57%, #E8B363 57%);
+  }
+
+  .header-navbar-items {
+    margin: 0;
+  }
+
+  .search-box {
+    height: 27px;
+    margin-bottom: 6px;
+  }
+
+  .search-box input {
+    background-color: #E8B363;
+    margin-top: 6px;
+    padding-right: 0;
+    font-size: 13px;
+    width: 150px;
+    border-radius: 18px;
+  }
+
+  .search-box .input-group-btn button {
+    color: #2D3142;
+    margin-top: 6px;
+    font-size: 15px;
+  }
+
+  .search-box .input-group-btn button:hover,
+  .search-box .input-group-btn button:active,
+  .search-box .input-group-btn button:focus {
+    color: #000;
+  }
+
+  ::placeholder {
+    color: #2D3142;
+  }
+
+  .search-box .input-group-btn {
+    position: absolute;
+    left: 118px;
+    top: 0;
+    z-index: 999;
+  }
+
+  /* ./Header Navbar */
+  /* Header Menu */
+  .menu-bar {
+    width: 576px;
+    box-shadow: none;
+  }
+
+  .menu-bar .item-games, .item-udemy-courses {
+    display: none;
+  }
+
+  .menu-bar .nav-item {
+    margin: 0 20px 0;
+    text-align: center;
+  }
+
+  .dropdown-item-udemy-courses, .dropdown-item-games {
+    display: inline-block;
+  }
+
+  /* ./Header Menu */
+}
+
+/* footer */
+.footer-h5 {
+  padding-left: 0;
+  border-left: transparent;
+  padding-bottom: 0;
+  margin-bottom: 10px;
+}
+
+/* ./footer */
+@media (max-width: 576px) {
+
+  /* Header Navbar */
+  .search-box input {
+    width: 130px;
+  }
+
+  .search-box .input-group-btn {
+    left: 98px;
+  }
+
+  /* ./Header Navbar */
+  /* Header Menu */
+  #menu-navbar {
+    display: none;
+  }
+
+  /* ./Header Menu */
+  /* Header Menu Mobile */
+  #menu-navbar-mobile {
+    display: block;
+  }
+
+  body {
+  margin: 0 0 55px 0;
+}
+
+.mobile-nav {
+  z-index: 999;
+  position: Fixed;
+  bottom: 0;
+  width: 100%;
+  height: 55px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  display: flex;
+  overflow-x: auto;
+
+}
+.mobile-nav-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  min-width: 50px;
+  overflow: hidden;
+  white-space: nowrap;
+  font-family: sans-serif;
+  font-size: 12px;
+  color: #2D3142;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  transition: background-color 0.1s ease-in-out;
+}
+.mobile-nav-link:hover {
+  background-color: #2D3142;
+  text-decoration: none;
+  color: #E8B363;
+}
+.mobile-nav-icon {
+  font-size: 18px;
+
+}
+
+
+  /* ./Header Menu Mobile */
+
+  /* Main body */
+  .main-body .container {
+    width: 300px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* ./Main body */
+}
+/*   ------------------------------ Movies Sub Menu -------------------------------    */
+.movies-sub-menu {
+  max-width: 992px;
+  margin: auto;
+}
+.movies-sub-menu .container {
+  padding: 0;
+  text-align: center;
+}
+.movies-sub-menu hr {
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
+}
+.movies-sub-menu .btn {
+margin-top: 2px;
+margin-bottom: 2px;
+}
+
+/*   ------------------------------ DMCA -------------------------------    */
+.dmca {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.dmca .container {
+  max-width: 992px;
+}
